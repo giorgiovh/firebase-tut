@@ -6,7 +6,6 @@ import 'dotenv/config.js';
 console.log(process.env);
 
 const firebaseConfig = {
-    // apiKey: "AIzaSyAtQTGo1D8uwX0Y5ZyF_wUCGwNHS9AiZ98",
     apiKey: process.env.API_KEY,
     authDomain: "fir-tutorial-9a326.firebaseapp.com",
     projectId: "fir-tutorial-9a326",
